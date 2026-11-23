@@ -1,57 +1,37 @@
-﻿# Ayan Salmani
+﻿### Hey there 👋
+### I'm Ayan Salmani
 
-Systems and full-stack software engineer building real-time audio pipelines, autonomous agent runtimes, and distributed telemetry platforms in Python and TypeScript.
+#### About 🌐
+* I build real-time voice interfaces, autonomous agent runtimes, and practical web software.
+* I like working close to the models and the machine—from local 32B inference and desktop automation to low-latency audio streams.
 
-[Portfolio](https://kayas-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/ayan-salmani-aa8a9a27b/) · [Email](mailto:ayan.salmani.dev@gmail.com)
+#### Work & Projects 🔨
+* **Saral Infosoft** — Web Development Intern (Jun 2026 – Present).
+* Building in my free time:
+  * [Gymnos](https://github.com/kayas881/gym-app) 🎙️ — hands-free voice copilot for workouts, built for the Meta Global AI Hackathon.
+  * [Kayas Assistant](https://github.com/kayas881/kayas_Assistant) 🖥️ — local desktop OS agent running Qwen 32B via vLLM with 3-tier visual fallback.
+  * [WanGP & ComfyUI Tooling](https://github.com/kayas881/WanGP-Kaggle) ⚡ — open-source cloud GPU runtime automation on Kaggle (34★).
+  * [Saral Watch](https://github.com/kayas881/kayas-watch) ⏱️ — self-hosted website telemetry, health probes, and TLS validation.
+  * [Race-OS](https://github.com/kayas881/Race-OS) 📊 — financial operating system and automated tax tracking for creators.
 
----
+#### Current Interests 🌱
+* Streaming Voice AI & Real-Time Audio (WebSockets, Scribe, WebRTC)
+* Autonomous Agent Loops & Deterministic Tool Calling
+* Local Model Serving & Quantization (vLLM, AWQ)
+* Python (Asyncio) & TypeScript / React
+* Distributed Telemetry & Sockets
 
-### Core Engineering Focus
+#### Love talking about 💬
+* Low-latency speech-to-speech pipelines
+* Desktop and browser automation
+* Building open-source tools
+* Fitness & powerlifting
 
-- **Low-Latency Streaming Speech:** Hands-free voice agents, bidirectional WebSocket/PCM audio streams, schema-constrained function calling, and sub-50ms barge-in handling.
-- **Autonomous Agent Loops:** ReAct execution runtimes, reasoning token isolation (`<think>`), multi-tier desktop perception fallbacks (UIA &rarr; OpenCV &rarr; OCR), and deterministic tool sandboxing.
-- **Telemetry & Production Backends:** Non-blocking socket health monitors, SNI TLS verification, asynchronous event queues, and database-enforced metric retention policies.
+#### Get in touch 📫
+* Mail: [ayan.salmani.dev@gmail.com](mailto:ayan.salmani.dev@gmail.com)
+* Personal site: [kayas-portfolio.vercel.app](https://kayas-portfolio.vercel.app)
+* LinkedIn: [in/ayan-salmani-aa8a9a27b](https://www.linkedin.com/in/ayan-salmani-aa8a9a27b/)
 
----
-
-### Shipped Systems & Open-Source
-
-#### [Gymnos Voice Copilot](https://github.com/kayas881/gym-app)
-*In-session hands-free voice copilot built for the Meta Global AI Developer Hackathon.*
-- Architected an eyes-free voice pipeline transcribing spoken exercise updates into validated JSON schemas (exercise, weight, reps, RIR).
-- Implemented human-in-the-loop "Confirm Card" safeguards to intercept and review agentic state changes prior to database commits.
-- Built on Next.js, React, TypeScript, and Supabase with row-level security.
-
-#### [Kayas Assistant](https://github.com/kayas881/kayas_Assistant)
-*Autonomous desktop operating system agent driven by local model inference.*
-- Engineered a deterministic ReAct planner in Python orchestrating a local 32B model (Qwen3-32B-AWQ via vLLM) and fine-tuned routing LoRA.
-- Built a 3-tier visual perception fallback hierarchy: UI Automation (pywinauto) &rarr; OpenCV template matching &rarr; Tesseract OCR for resilient UI grounding.
-- Designed isolated reasoning loops with `<think>` tag stripping and 15+ sandboxed OS tool executors.
-
-#### [WanGP & ComfyUI Cloud GPU Tooling](https://github.com/kayas881/WanGP-Kaggle)
-*Open-source generative video runtime orchestration on constrained cloud GPUs (34+ GitHub stars combined).*
-- Automated multi-gigabyte model checkpoint redirection, CUDA VRAM offloading, and dependency patching on constrained T4/P100 hardware.
-- Engineered one-click launch scripts providing authenticated Gradio tunnels with zero local installation overhead.
-
-#### [Saral Watch](https://github.com/kayas881/kayas-watch)
-*Self-hosted infrastructure and website telemetry platform.*
-- Built concurrent socket health probes and SNI TLS certificate validation running on non-blocking 300-second cycles in Express and TypeScript.
-- Implemented automated rolling 7-day metric retention policies in MySQL via Prisma ORM to bound database storage footprint.
-
-#### [Race-OS](https://github.com/kayas881/Race-OS)
-*Financial and operational workflow engine for independent creators.*
-- Integrated live banking feeds via Plaid API, automated income/expense categorization rules, and quarterly tax calculation engines.
-- Designed clean relational schemas with multi-tenant access controls and exportable financial audits.
-
----
-
-### Technical Stack
-
-| Domain | Technologies |
-| :--- | :--- |
-| **Languages** | Python (Asyncio), TypeScript, JavaScript, SQL, C++, Bash |
-| **Agentic & Audio** | ReAct Loops, Structured Schemas (Pydantic/Zod), WebSockets, WebRTC, vLLM, Whisper, OpenCV, pywinauto |
-| **Backend & Telemetry** | Node.js, Express, FastAPI, Prisma ORM, RESTful APIs, Cron Jobs, Socket Probes |
-| **Databases** | PostgreSQL, MySQL (InnoDB), Supabase, SQLite, Redis |
-| **Frontend** | React, Next.js, Tailwind CSS, HTML5, CSS Modules |
-| **Cloud & DevOps** | Google Cloud (GCP), Microsoft Azure, Docker, Linux (Ubuntu), Nginx, PM2, Git, GitHub Actions |
+#### Fun facts ⚡
+* I lift heavy weights and built Gymnos so I wouldn't have to touch a sweaty phone screen between sets 🏋️
+* I like experimenting with 2D graphics and game prototypes (C++, SDL2, Raylib) in between web projects 🎮
