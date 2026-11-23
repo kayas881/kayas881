@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="banner.svg" alt="Ayan Salmani Banner" width="100%" />
+  <img src="header.svg" alt="Ayan Salmani Banner" width="100%" />
 </p>
 
 ### 👋 &nbsp;Hello there!
