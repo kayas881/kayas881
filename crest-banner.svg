@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%" height="100%" viewBox="0 0 1200 300"
+     role="img" aria-labelledby="title">
+  <title id="title">Well met, traveller. Ayan Salmani — Voice AI, local agents, and full-stack projects.</title>
+
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111c30"/>
+      <stop offset="100%" stop-color="#18263c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Navy background and muted gold border -->
+  <rect width="1200" height="300" rx="16" fill="url(#background)"/>
+  <rect x="16" y="16" width="1168" height="268" rx="8"
+        fill="none" stroke="#8a7652"/>
+
+  <!-- Sword and shield crest -->
+  <path d="M209 78 Q169 99 125 99 V155
+           Q125 200 209 232 Q293 200 293 155 V99
+           Q249 99 209 78Z"
+        fill="#202e44" stroke="#c8a971" stroke-width="3"/>
+  <path d="M209 106 L221 155 L209 171 L197 155 Z
+           M183 174 H235 M209 174 V197"
+        fill="none" stroke="#ebcc90" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M345 79 V221" stroke="#8a7652"/>
+
+  <!-- Greeting, name, and tagline -->
+  <text x="390" y="104" fill="#ebcc90"
+        font-family="Georgia, serif" font-size="25" font-style="italic">
+    Well met, traveller.
+  </text>
+  <text x="388" y="171" fill="#f7efdf"
+        font-family="Georgia, serif" font-size="54">
+    Ayan Salmani
+  </text>
+  <text x="391" y="219" fill="#c4cfdf"
+        font-family="system-ui, sans-serif" font-size="24">
+    Voice AI · Local agents · Full-stack projects
+  </text>
+</svg>
