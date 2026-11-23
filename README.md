@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="crest-banner.svg" alt="Ayan Salmani Banner" width="100%" />
+  <img src="banner-crest.svg" alt="Ayan Salmani Banner" width="100%" />
 </p>
 
 ## Hey, I'm Ayan 👋 (everyone calls me Kayas)
