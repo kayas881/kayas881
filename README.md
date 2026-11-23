@@ -1,8 +1,14 @@
-﻿# Ayan Salmani
+﻿<p align="center">
+  <a href="https://kayas-portfolio.vercel.app">
+    <img src="banner.svg" alt="Ayan Salmani — Systems &amp; Full-Stack Software Engineer" width="100%" />
+  </a>
+</p>
 
-Systems and full-stack software engineer building real-time audio pipelines, autonomous agent runtimes, and distributed telemetry platforms in Python and TypeScript.
-
-[Portfolio](https://kayas-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/ayan-salmani-aa8a9a27b/) · [Email](mailto:ayan.salmani.dev@gmail.com)
+<p align="right">
+  <a href="https://kayas-portfolio.vercel.app"><b>Portfolio 🌐</b></a> &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/ayan-salmani-aa8a9a27b/"><b>LinkedIn 🔗</b></a> &nbsp;•&nbsp;
+  <a href="mailto:ayan.salmani.dev@gmail.com"><b>Email ✉️</b></a>
+</p>
 
 ---
 
