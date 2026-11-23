@@ -1,43 +1,135 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="100%" height="100%" viewBox="0 0 1200 300"
-     role="img" aria-labelledby="title">
-  <title id="title">Well met, traveller. Ayan Salmani — Voice AI, local agents, and full-stack projects.</title>
+     width="1200" height="340" viewBox="0 0 1200 340"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Well met, traveller. Ayan “Kayas” Salmani</title>
+  <desc id="desc">A lantern-lit keep and a sword pennant beside the name
+    Ayan Kayas Salmani. Voice AI, local agents, and full-stack projects.</desc>
 
   <defs>
-    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#111c30"/>
-      <stop offset="100%" stop-color="#18263c"/>
+    <linearGradient id="sky" x2="1" y2="1">
+      <stop stop-color="#202d49"/>
+      <stop offset="1" stop-color="#0d1423"/>
     </linearGradient>
+
+    <linearGradient id="cloth" x2="1" y2="0">
+      <stop stop-color="#622b42"/>
+      <stop offset=".48" stop-color="#883c50"/>
+      <stop offset="1" stop-color="#50243a"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+      <stop stop-color="#ffbd68" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff9e48" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="frame">
+      <rect width="1200" height="340" rx="16"/>
+    </clipPath>
   </defs>
 
-  <!-- Navy background and muted gold border -->
-  <rect width="1200" height="300" rx="16" fill="url(#background)"/>
-  <rect x="16" y="16" width="1168" height="268" rx="8"
-        fill="none" stroke="#8a7652"/>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .glow { animation: flicker 4s ease-in-out infinite; }
+      .ember { animation: drift 5s ease-in-out infinite; }
+      .ember-late { animation-delay: -2.5s; }
 
-  <!-- Sword and shield crest -->
-  <path d="M209 78 Q169 99 125 99 V155
-           Q125 200 209 232 Q293 200 293 155 V99
-           Q249 99 209 78Z"
-        fill="#202e44" stroke="#c8a971" stroke-width="3"/>
-  <path d="M209 106 L221 155 L209 171 L197 155 Z
-           M183 174 H235 M209 174 V197"
-        fill="none" stroke="#ebcc90" stroke-width="4"
-        stroke-linecap="round" stroke-linejoin="round"/>
+      @keyframes flicker {
+        0%, 100% { opacity: .72; }
+        35% { opacity: 1; }
+        60% { opacity: .82; }
+      }
 
-  <path d="M345 79 V221" stroke="#8a7652"/>
+      @keyframes drift {
+        0%, 100% { transform: translate(0, 0); opacity: .3; }
+        55% { transform: translate(12px, -20px); opacity: .9; }
+      }
+    }
+  </style>
 
-  <!-- Greeting, name, and tagline -->
-  <text x="390" y="104" fill="#ebcc90"
-        font-family="Georgia, serif" font-size="25" font-style="italic">
-    Well met, traveller.
-  </text>
-  <text x="388" y="171" fill="#f7efdf"
-        font-family="Georgia, serif" font-size="54">
-    Ayan Salmani
-  </text>
-  <text x="391" y="219" fill="#c4cfdf"
-        font-family="system-ui, sans-serif" font-size="24">
-    Voice AI · Local agents · Full-stack projects
-  </text>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#sky)"/>
+
+    <!-- Distant moon, stars, and hills -->
+    <circle cx="96" cy="80" r="27" fill="#ead7b1" opacity=".82"/>
+    <g fill="#ead7b1" opacity=".55">
+      <circle cx="54" cy="119" r="1.5"/>
+      <circle cx="158" cy="64" r="1.7"/>
+      <circle cx="184" cy="94" r="1.2"/>
+      <circle cx="361" cy="67" r="1.5"/>
+      <circle cx="399" cy="119" r="1.3"/>
+    </g>
+    <path d="M0 238 Q77 174 150 222 T298 221 T446 221
+             L485 340 H0Z" fill="#233149"/>
+    <path d="M0 275 Q106 228 206 278 T427 267 L473 340 H0Z"
+          fill="#151f30"/>
+
+    <!-- Keep silhouette and lit windows -->
+    <path d="M47 289 V155 H57 V168 H68 V155 H79 V168 H90 V155 H101
+             V209 H125 V124 H136 V137 H147 V124 H158 V137 H169 V124
+             H180 V203 H196 V289Z" fill="#101827"/>
+    <g fill="#e6ad69">
+      <path d="M71 198 a4 4 0 0 1 8 0 v11 h-8Z"/>
+      <path d="M148 164 a4 4 0 0 1 8 0 v11 h-8Z"/>
+      <path d="M148 203 a4 4 0 0 1 8 0 v11 h-8Z" opacity=".65"/>
+    </g>
+
+    <!-- Hanging pennant -->
+    <path d="M232 74 V91 M304 74 V91" stroke="#b29567" stroke-width="2"/>
+    <path d="M216 92 H320 V237 L268 211 L216 237Z"
+          fill="url(#cloth)" stroke="#d5b780" stroke-width="2"/>
+    <path d="M225 100 V222 L268 201 L311 222 V100"
+          fill="none" stroke="#d5b780" opacity=".55"/>
+    <path d="M203 92 H333" stroke="#d5b780" stroke-width="4"
+          stroke-linecap="round"/>
+    <circle cx="203" cy="92" r="4" fill="#e8c991"/>
+    <circle cx="333" cy="92" r="4" fill="#e8c991"/>
+
+    <!-- Sword-and-shield crest -->
+    <path d="M268 113 Q253 122 238 122 V148
+             Q238 170 268 183 Q298 170 298 148 V122
+             Q283 122 268 113Z"
+          fill="#52243a" stroke="#e8c991" stroke-width="1.6"/>
+    <path d="M268 124 L274 145 L268 152 L262 145Z
+             M257 154 H279 M268 154 V168"
+          fill="none" stroke="#f5dca6" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Lantern and drifting embers -->
+    <circle class="glow" cx="363" cy="252" r="62" fill="url(#glow)"/>
+    <g stroke="#d9ae76" stroke-width="2" stroke-linejoin="round">
+      <path d="M357 230 Q357 219 363 219 Q369 219 369 230"
+            fill="none"/>
+      <path d="M351 237 L356 230 H370 L375 237Z" fill="#30303a"/>
+      <rect x="353" y="237" width="20" height="26" rx="2" fill="#efad61"/>
+      <path d="M363 237 V263 M350 264 H376" fill="none"/>
+    </g>
+    <g fill="#ffd59b">
+      <circle class="ember" cx="386" cy="241" r="2"/>
+      <circle class="ember ember-late" cx="345" cy="220" r="1.6"/>
+      <circle class="ember ember-late" cx="398" cy="211" r="1.2"/>
+    </g>
+
+    <!-- Divider and lettering -->
+    <path d="M435 79 V261" stroke="#b29567" opacity=".6"/>
+    <path d="M435 163 l6 7 -6 7 -6 -7Z" fill="#d5b780"/>
+
+    <text x="480" y="113" fill="#e8c991" font-family="Georgia, serif"
+          font-size="27" font-style="italic">Well met, traveller.</text>
+
+    <text x="477" y="183" fill="#fff2de" font-family="Georgia, serif"
+          font-size="57">Ayan “Kayas” Salmani</text>
+
+    <text x="481" y="230" fill="#ced7e6" font-family="system-ui, sans-serif"
+          font-size="25">Voice AI · Local agents · Full-stack projects</text>
+
+    <path d="M482 257 H570 M590 257 H678" stroke="#b29567" opacity=".7"/>
+    <path d="M580 252 l5 5 -5 5 -5 -5Z" fill="#d5b780"/>
+  </g>
+
+  <!-- Inset border and corner accents -->
+  <rect x="13" y="13" width="1174" height="314" rx="10"
+        fill="none" stroke="#a78b61" opacity=".65"/>
+  <path d="M25 50 V25 H50 M1150 25 H1175 V50
+           M25 290 V315 H50 M1150 315 H1175 V290"
+        fill="none" stroke="#d5b780" stroke-width="1.5"/>
 </svg>
