@@ -11,6 +11,11 @@ My favourite example is [Gymnos](https://github.com/kayas881/gym-app). You say
 confirm before anything is saved. I built it for the Meta AI Hackathon. It made me
 care a lot about AI that earns your trust instead of just guessing.
 
+I have always been fascinated by OS-LLM style automation for as long as i can remember and when gpt/gemini models started getting on surface i thought that maybe my dream isn't so far off so i started playing with their API and made chatbot for my college as my final year diploma project but ofcourse that wasn't something i wanted so i started working towards the automation i had dreamaed of in my btech journey and came up with [Kayas AI assistant](https://kayas-portfolio.vercel.app/?project=kayas-assistant), i initially tried fine tuning llama model with the [dataset]([https://kayas-portfolio.vercel.app/?project=kayas-assistant](https://huggingface.co/datasets/kayas/Windows_Apps) i came up with a script that captures full-screen screenshots (frame_*.png), and automatically extracts bounding boxes (bboxes.json) and action/element labels (dataset.json) based on the resulting UI behavior, after fine tuning the tool calling was good but it wasn't smart enough for multi layered tasks so i kept it as a primary execution for small tasks and woke up big tool calling models such as qwen3-32B via vLLM on kaggle or any cloud GPU (since i didn't have a powerful GPU card),
+
+While i was making that dataset for fine tuning and saw that many people downloaded i uploaded another [dataset]([[https://kayas-portfolio.vercel.app/?project=kayas-assistant](https://huggingface.co/datasets/kayas/Windows_Apps](https://huggingface.co/datasets/kayas/agent-recover-500)) for teaching LLM how to handle rate limits (429), schema errors, and self-correct. Which again had 58 downloads.
+so yeah i do work here and there but it all comes back to full stack engineering and AI automation systems.
+
 Right now I'm an E&TC engineering student and a web dev intern. I spend my free
 time on voice AI, local LLM agents, and squeezing big models onto small GPUs.
 
@@ -22,7 +27,7 @@ time on voice AI, local LLM agents, and squeezing big models onto small GPUs.
 
 - Talking to an AI and being able to **interrupt it** (sub-50ms barge-in)
 - Agents that follow rules instead of improvising (deterministic tool loops with local LLMs via vLLM)
-- Running video generation on free or constrained GPUs
+- Running video generation or experimenting Open source LLMS like qwen on free or constrained GPUs
 
 ---
 
