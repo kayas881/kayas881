@@ -7,7 +7,7 @@
 I build software that listens, acts, and **asks before it does anything risky.**
 
 I'm an Electronics & Telecommunication student, and I've been fascinated by
-JARVIS-style automation for as long as I can remember. When GPT launched during my
+LLM-OS-style automation for as long as I can remember. When GPT launched during my
 diploma, it felt possible for the first time that I could build something like that
 myself. I started experimenting with the API, and that turned into my
 final-year project, a [college chatbot](https://kayas-portfolio.vercel.app/?project=college-chatbot).
