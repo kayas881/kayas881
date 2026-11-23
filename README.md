@@ -71,8 +71,8 @@ It has 58 downloads.
 
 ## 💬 Let's talk
 
-I'm happy to chat about low-latency systems, local agents, hackathons, or
-internships and junior roles. If you've read this far, say hi. I read
-every message.
+I love talking about automation ideas, voice AI, local agents, and anything
+low-latency. If you're building something in that space, or hiring for it,
+say hi. I read every message.
 
 > *"Build it, break it, then make it trustworthy."*
