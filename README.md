@@ -2,14 +2,24 @@
   <img src="banner.svg" alt="Ayan Salmani Banner" width="100%" />
 </p>
 
-### About 🌍
+### 👋 &nbsp;Hello there!
 
-- I design and build real-time voice pipelines, local autonomous agent runtimes, and distributed telemetry platforms.
-- Deeply interested in low-latency systems, audio streaming protocols, and deterministic agent execution.
+[![Portfolio](https://img.shields.io/badge/Portfolio-kayas--portfolio.vercel.app-05122A?style=flat&logo=vercel&logoColor=white)](https://kayas-portfolio.vercel.app)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-salmani-aa8a9a27b/)&nbsp;
+[![Email](https://img.shields.io/badge/Email-ayan.salmani.dev%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ayan.salmani.dev@gmail.com)&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/kayas881?label=follow&style=social)](https://github.com/kayas881)
+
+### 👨🏻‍💻 &nbsp;About Me
+
+🎙️ &nbsp;I design and build real-time streaming audio pipelines, local autonomous agent runtimes, and distributed telemetry platforms.<br/>
+🧠 &nbsp;These days I'm digging into low-latency voice AI (bidirectional WebSockets, 16kHz PCM audio chunking, sub-50ms acoustic barge-in) and deterministic tool-use loops with local LLMs (`vLLM`).<br/>
+🏋️ &nbsp;Built **[Gymnos](https://github.com/kayas881/gym-app)** for the Meta AI Hackathon—an in-session voice copilot that parses workout sets and reps hands-free with confirm cards before database commits.<br/>
+⚡ &nbsp;Creator of open-source generative video runtimes automating diffusion pipelines on constrained GPU environments (**34★** across repos).<br/>
+💬 &nbsp;Always happy to chat about low-latency systems, local agent architectures, hackathons, or new engineering opportunities—feel free to reach out!
 
 ---
 
-### What I'm Building 🔭
+### 🛠️ &nbsp;What I'm Building
 
 | Project | Description | Core Stack |
 | :--- | :--- | :--- |
@@ -21,32 +31,23 @@
 
 ---
 
-### Current Interests 🌱
+### 💻 &nbsp;Tech Stack
 
-- **Real-Time Speech:** WebSockets, 16kHz PCM streaming, sub-50ms acoustic barge-in
-- **Local AI & Agents:** vLLM, structured Pydantic schemas, reasoning token isolation (`<think>`)
-- **Systems & Telemetry:** Concurrency (`asyncio`), non-blocking socket health monitors, Docker
-- **Languages:** Python, TypeScript, SQL, Go
-
----
-
-### Love talking about 💬
-
-- Low-latency voice pipelines & streaming AI
-- Local agent autonomy and reliable tool calling
-- Open-source developer tooling & hackathons
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
+![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=typescript)&nbsp;
+![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=nextdotjs)&nbsp;
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
+![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=nodedotjs)&nbsp;
+![FastAPI](https://img.shields.io/badge/-FastAPI-05122A?style=flat&logo=fastapi)&nbsp;
+![PyTorch](https://img.shields.io/badge/-PyTorch-05122A?style=flat&logo=pytorch)&nbsp;
+![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker)&nbsp;
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)&nbsp;
+![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat&logo=linux)
 
 ---
 
-### Get in touch 📫
+### 📫 &nbsp;How to reach me
 
-- 🌐 **Portfolio:** [kayas-portfolio.vercel.app](https://kayas-portfolio.vercel.app)
-- 💼 **LinkedIn:** [in/ayan-salmani-aa8a9a27b](https://www.linkedin.com/in/ayan-salmani-aa8a9a27b/)
-- ✉️ **Email:** [ayan.salmani.dev@gmail.com](mailto:ayan.salmani.dev@gmail.com)
-
----
-
-### Fun facts ⚡
-
-- Built Gymnos Voice Copilot for the Meta AI Hackathon to log workout sets hands-free between heavy squats 🏋️
-- 34★ across open-source generative video runtimes on Kaggle 🚀
+<a href="https://www.linkedin.com/in/ayan-salmani-aa8a9a27b/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>&nbsp;
+<a href="mailto:ayan.salmani.dev@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="https://kayas-portfolio.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-05122A?style=flat&logo=vercel&logoColor=white"/></a>
